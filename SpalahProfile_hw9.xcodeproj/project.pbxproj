@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		492A75D01FA679D500B4122F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A75CF1FA679D500B4122F /* AppDelegate.swift */; };
-		492A75D21FA679D500B4122F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A75D11FA679D500B4122F /* ViewController.swift */; };
 		492A75D51FA679D500B4122F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492A75D31FA679D500B4122F /* Main.storyboard */; };
 		492A75D71FA679D500B4122F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492A75D61FA679D500B4122F /* Assets.xcassets */; };
 		492A75DA1FA679D500B4122F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492A75D81FA679D500B4122F /* LaunchScreen.storyboard */; };
+		492A75E41FA67A9E00B4122F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A75E31FA67A9E00B4122F /* ProfileVC.swift */; };
+		492A75E61FA67AB900B4122F /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A75E51FA67AB900B4122F /* EditProfileVC.swift */; };
+		492A75E81FA67ADB00B4122F /* EditProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A75E71FA67ADB00B4122F /* EditProfileDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		492A75CC1FA679D500B4122F /* SpalahProfile_hw9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpalahProfile_hw9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492A75CF1FA679D500B4122F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		492A75D11FA679D500B4122F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		492A75D41FA679D500B4122F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492A75D61FA679D500B4122F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492A75D91FA679D500B4122F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492A75DB1FA679D500B4122F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492A75E31FA67A9E00B4122F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		492A75E51FA67AB900B4122F /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		492A75E71FA67ADB00B4122F /* EditProfileDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		492A75CE1FA679D500B4122F /* SpalahProfile_hw9 */ = {
 			isa = PBXGroup;
 			children = (
+				492A75E31FA67A9E00B4122F /* ProfileVC.swift */,
+				492A75E51FA67AB900B4122F /* EditProfileVC.swift */,
+				492A75E71FA67ADB00B4122F /* EditProfileDelegate.swift */,
 				492A75CF1FA679D500B4122F /* AppDelegate.swift */,
-				492A75D11FA679D500B4122F /* ViewController.swift */,
 				492A75D31FA679D500B4122F /* Main.storyboard */,
 				492A75D61FA679D500B4122F /* Assets.xcassets */,
 				492A75D81FA679D500B4122F /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492A75D21FA679D500B4122F /* ViewController.swift in Sources */,
+				492A75E41FA67A9E00B4122F /* ProfileVC.swift in Sources */,
+				492A75E61FA67AB900B4122F /* EditProfileVC.swift in Sources */,
+				492A75E81FA67ADB00B4122F /* EditProfileDelegate.swift in Sources */,
 				492A75D01FA679D500B4122F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
